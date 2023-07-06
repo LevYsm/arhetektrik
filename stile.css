@@ -1,0 +1,96 @@
+body
+{
+font-family: 'Lato', sans-serif;
+text-align: center;
+  
+}
+.kub_bolsoi
+{
+border:     black 10px solid ;
+width: 500px;
+height: 950px;
+margin: 0 auto;
+border-radius: 20px;
+}
+
+h1
+{
+text-align: center;
+}
+
+.home
+{
+width: 70px;
+height: 70px;
+transition: 5s;
+
+}
+.home:active
+{
+    width: 200px;
+height: 200px;
+
+
+}
+
+.roman_stile
+{
+border: darkslategray 10px dashed;
+padding: 0 auto;
+margin-top: 20px;
+border-radius: 20px;
+}
+
+.gotik_stile
+{
+border: darkslategray 40px solid;
+transition: background-color 2s;
+border-radius: 20px;
+}
+
+
+.gotik_stile:hover
+{background-color: rgb(235, 223, 186);
+/* background-image: url(http://crossmoda.narod.ru/CONTENT/art/midle/gotica/img_gotica_architect/img_gotica_arch_Franse/amien2.jpg); */
+
+}
+
+ul
+{list-style-type:none;}
+
+.rokoko_stile
+{
+border: darkslategray 30px dotted;
+background-color: rgb(215, 176, 104);
+border-radius: 100px;
+
+}
+
+img.rokoko_stile
+{
+margin-top: 0px ;
+
+}
+
+.rokoko
+{text-align: center;
+color: rgb(121, 129, 40);
+font-size: large;
+}
+
+
+img
+{
+border-radius: 100%;
+
+float: left;
+}
+
+.footer
+{
+    border-top: black 10px solid;
+    margin-top: 40px;
+    border: 1 bl;
+    background-color: lightcyan;
+    border-radius: 20px;
+}
